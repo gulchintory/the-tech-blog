@@ -42,13 +42,20 @@ p {
   font-size: 1.2rem;
 }
 
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
 a {
   color: #ffffff;
 }
+
+.post {
+  border: 4px solid #000;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #ffffff;
+  background-color:  var(--dark);
+}
+
 
 .no-button {
   background: none;
